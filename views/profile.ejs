@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="./css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+        <h1 class="title">Profile page</h1>
+        <div class="columns">
+            <div class="column">
+                <img src="https://cdn.discordapp.com/avatars/<%= userId %>/<%= avatar %>">
+            </div>
+            <div class="column">
+                <h1><%= username + "#" + discriminator %></h1>
+            </div>
+        </div>
+        <a href="/project">project</a>
+    </div>
+  </section>
+  </body>
+</html>
